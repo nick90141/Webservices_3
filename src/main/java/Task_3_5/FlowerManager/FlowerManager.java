@@ -1,4 +1,6 @@
-package Task_3_5;
+package Task_3_5.FlowerManager;
+
+import Task_3_5.Flower.Flower;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

@@ -1,4 +1,4 @@
-package Task_3_5;
+package Task_3_5.PlantModel;
 
 import javax.xml.bind.annotation.XmlElement;
 

@@ -1,4 +1,4 @@
-package Task_3_5;
+package Task_3_5.SaxParser;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -59,7 +59,7 @@ public class SAXParserExample {
                 }
             };
 
-            File xmlFile = new File("D:\\КУРС ПО JAVA\\Web-services\\№1. Software setup, web services, XML\\src\\main\\java\\Task_5\\plants.xml");
+            File xmlFile = new File("src/main/resources/plants.xml");
             saxParser.parse(xmlFile, handler);        } catch (Exception e) {
             e.printStackTrace();
         }
